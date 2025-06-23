@@ -1,0 +1,74 @@
+:root {
+    --primary: #000000;
+    --primary-light: #FFFFFF;
+    /* --------------------------------------INTRO SECTION COLORS---------------------------------------- */
+    /* initial (dark theme) colors for intro name and description */
+    --intro-name: white;
+    
+    /* initial (dark theme) for unordered list item text and background */
+    --nav-tab-color: black;
+    --background-color: white;
+
+    /* initial (dark theme) shadow color */
+    --box-shadow-color: rgba(255, 255, 255, 0.836);
+
+    /* initial (dark theme) icon fill color (used for github/linkedin in intro section AND for light theme icon */
+    --icon-fill-color: white;
+    /* -------------------------------------------------------------------------------------------------------- */
+
+   /* --------------------------------------REUSE FOR ALL SECTIONS ON RIGHT---------------------------------------- */
+    --boxShadow-section: 0px 1px 10px 1px rgb(255, 250, 250); /* used for ALL sections summaries (Experience, Project, Certification) */
+    --hover-boxShadow-section: 0px 0px 30px 1px rgba(255, 255, 255, 0.836);/* used for ALL sections (Experience, Project, Certification) */
+
+    /* -------------------------------------------------------------------------------------------------------- */
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    background-color: var(--primary);
+}
+
+html.light-theme {
+    background-color: var(--primary-light);
+
+    /* ---------------------INTRO SECTION LIGHT THEME COLORS-------------------------------------------------- */
+    /* light theme colors for intro name and description */
+    --intro-name: var(--primary);
+    
+    /* light theme for unordered list item text and background */
+    --nav-tab-color: var(--primary-light);
+    --background-color: var(--primary);
+
+    /*  shadow color on light thene */
+    --box-shadow-color: rgba(0, 0, 0, 0.836);
+    
+    /* icon fill color on light theme */
+    --icon-fill-color: var(--primary);
+    /* ---------------------------------------------------------------------------------------------------------- */
+
+    /* ---------------------INTRO SECTION LIGHT THEME COLORS-------------------------------------------------- */
+    --boxShadow-section: 0px 1px 10px 1px rgb(14, 14, 14, 0.836);
+    --hover-boxShadow-section: 0px 0px 30px 1px rgba(14, 14, 14, 0.836);
+    /* ---------------------------------------------------------------------------------------------------------- */
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html{
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 73.5rem) {
+    html {
+        font-size: 70%;
+    }
+}

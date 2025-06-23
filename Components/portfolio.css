@@ -1,0 +1,44 @@
+.project-title{
+    margin-top: 100px;
+}
+
+.page-setup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
+}
+
+.intro-right {
+    justify-items: flex-start;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.intro-left {
+    justify-items: center;
+    align-items: center;
+}
+
+.intro {
+    position: fixed;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (width < 73.5rem){
+    .nav-tabs{
+        display: none;
+    }
+    .page-setup{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .intro{
+        position: static;
+    }
+    .intro-right {
+        justify-items: center;
+    }
+}

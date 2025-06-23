@@ -1,0 +1,63 @@
+/* Adds styles for all elements in the div */
+.project-title{
+    font-family: "poppins", sans-serif;
+    margin-top: 0px;
+}
+
+/* Adds style for all projects to be displayed */
+.project {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    gap: 80px;
+    padding: 30px;
+    max-width: 700px;
+    font-family: "poppins", sans-serif;
+    margin-top: 50px;
+    border-radius: 4px 100px 4px 100px;
+    backdrop-filter: blur(5px);
+    box-shadow: var(--boxShadow-section);
+    transition: box-shadow 300ms;
+    color: white;
+    background-color: black;
+}
+
+/* additional styles on each project section hover */
+.project:hover {
+    box-shadow: var(--hover-boxShadow-section);
+    cursor: default;
+}
+
+/* Styles project image */
+.project-image {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    transition: box-shadow 300ms;
+    border-radius: 5px;
+}
+
+/* additional image styles on hover */
+.project-image:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px white;
+
+}
+
+/* Adds style to link */
+.github-link {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* adds style to the github svg icon */
+.github-link svg {
+    transition: scale 300ms;
+}
+
+/* github icon on mouse hover (scales larger) */
+.github-link svg:hover{
+    scale: 1.2;
+    cursor: pointer;
+}

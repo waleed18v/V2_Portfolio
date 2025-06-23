@@ -1,0 +1,46 @@
+/* sets the entire div with the following styles */
+.experience-title{
+    font-family: "poppins", sans-serif;
+    margin-top: 100px;
+}
+
+/* styles each experience container */
+.work {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    gap: 50px;
+    padding: 30px;
+    font-family: "poppins", sans-serif;
+    margin-top: 50px;
+    max-width: 700px;
+    border-radius: 4px 100px 4px 100px;
+    box-shadow: var(--boxShadow-section);
+    background-color: black;/* Color will stay the same */
+    transition: box-shadow 300ms;
+}
+
+/* styles each experience on mouse hover */
+.work:hover {
+    box-shadow: var(--hover-boxShadow-section);
+    cursor: default;
+}
+
+/* styles the experience time (on the left of job title) */
+.work-time {
+    display: flex;
+    color: white;
+    width: 170px;
+}
+
+/* Professional work experience summary */
+.myExperience-summary{
+    color: white;
+    margin: 0;
+}
+
+/* Stlyes the job title position  */
+.myExperience-position{
+    margin: 0;
+}
+
+

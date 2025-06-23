@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Waleed Ahmed</title>
+    <link rel="stylesheet" href="/Components/styles.css">
+    <meta name="color-scheme" content="dark light" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,
+    500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <button aria-label="Toggle dark theme" id="toggle-theme">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    enable-background="new 0 0 24 24"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    fill="var(--icon-fill-color)">
+                    <rect fill="none" height="24" width="24" />
+                        <path
+                            d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 
+                            c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
+                        />
+                </svg>
+            </button>
+            <div class="page-setup">
+                <section class="intro-left" aria-labelledby="name and navigation buttons">
+                    <!-- this division contains the info on the left side of the screen -->
+                    <!-- Name, description under the name, the navigations below and the github and linkedin -->
+                    <div class="intro">
+                        <!-- this div contains the name and the description under the name -->
+                        <div class="intro-name">
+                            <h1 id="myName">Waleed Ahmed</h1>
+                            <p id="myDescription">Creative | Teamwork | Determined</p>
+                        </div>
+                        <!-- this div contains the four navigation items on the left screen -->
+                        <div class="nav-tabs">
+                            <ul id="intro-nav-items">
+                              <a href="#aboutme" class="link-style"><li class="nav-tab">About me</li></a>
+                              <a href="#myexperience" class="link-style"><li class="nav-tab">Experience</li></a>
+                              <a href="#myprojects" class="link-style"><li class="nav-tab">Projects</li></a>
+                              <a href="#mycertifications" class="link-style"><li class="nav-tab">Certifications</li></a>
+                            </ul>
+                        </div>
+                        <!-- this div contains the github and linkedin svg icons-->
+                        <div class="socials">
+                            <!-- this div contains the github svg -->
+                            <!-- CHANGE FILL TO BLACK WHEN LIGHT THEME -->
+                            <div class="social">
+                                <a href="https://github.com/waleed18v"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" aria-label="Github icon" viewBox="0 0 16 16" height="30px" width="30px" fill="var(--icon-fill-color)" class="h-6 w-6" aria-hidden="true">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                                    1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0
+                                    1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013
+                                    8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+                            </div>
+                            <!-- this div contains the linkedin icon -->
+                            <!-- CHANGE FILL TO BLACK WHEN LIGHT THEME -->
+                            <div class="social">    
+                                <a href="https://www.linkedin.com/in/waleed18v" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="linkedin icon" height="30px" width="30px" fill="var(--icon-fill-color)" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5
+                                    0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0
+                                    3.36.86 3.36 3.66z"></path></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="aboutme" class="intro-right" aria-label="Aboutt me section">
+                    <section id="aboutme">
+                        <!-- this div contains the about me title for the section -->
+                        <div class="title-display">
+                            <!-- this is the tile "About Me" -->
+                            <h2 class="title section-title section-title-style">About Me</h2>
+                        </div> 
+                        <!-- this div contains the "About Me" summary -->
+                        <div class="aboutMe-summary">
+                            <!-- Contains first summary paragraph -->
+                            <p class="summary text--sm">
+                                Experienced software developer, working with modern web technologies such as React 19, JavaScript (ES15), HTML and CSS. 
+                                Collaborated within Agile teams, following the Software Development Life Cycle (SDLC) to deliver efficient and 
+                                scalable applications. My work often involves both front-end development and integrating APIs.
+                            </p>
+                            <!-- Contains second summary paragraph -->
+                            <p class="summary text--sm">
+                                I enjoy coding in my free time. I enjoy building personal projects and experimenting with new frameworks and tools, continuously learning and
+                                improve my skills. Side projects not only fuel my creativity but also keep me updated with the latest industry trends.
+                            </p>
+                            <!-- Contains thid summary paragraph -->
+                            <p class="summary text--sm">
+                                Accessibility is a key focus in my development process. I have experience ensuring that websites are compatible with screen readers and
+                                other assistive technologies, making digital content inclusive for all users. Creating accessible, user-friendly websites is important 
+                                to me, as I believe technology should be usable by everyone regardless of ability.
+                            </p>
+                        </div>
+                    </section>
+                    
+                    <!-- Section contains professional work experience -->
+                    <section id="myexperience" aria-label="Experience Section">
+                        <!-- This div contains all work experience -->
+                        <div class="experience-title">
+                            <!-- Div contains the title "Experience" -->
+                            <div class="title-display">
+                                <h2 class="title section-title section-title-style">Experience</h2>
+                            </div>
+                            <!-- This div contains professional work history (Time, Title, Summary, Languages) -->
+                            <div class="work">
+                                <!-- Contains the time worked -->
+                                <div class="work-time">
+                                    <p class="text--sm">Jan 2023 - Present</p>
+                                </div>
+                                <!-- This div contains work experience -->
+                                <div>
+                                    <!-- Title of position -->
+                                    <h2 class="myExperience-position">Front-End Developer | Transnet</h2>
+                                    <!-- Summary of position -->
+                                    <p class="myExperience-summary text-color-in text--sm">Experienced software developer skilled in building responsive React.js applications, 
+                                        collaborating in Agile teams, and following SDLC practices. Proven ability to enhance user experience, implement 
+                                        SEO best practices, integrate RESTful APIs, and maintain code quality using Git. Strong in cross-functional collaboration, 
+                                        client support, and evaluating tools to drive innovation.
+                                    </p>
+                                    <!-- List programing languages used-->
+                                    <ul class="languages">
+                                        <li class="language">HTML</li>
+                                        <li class="language">CSS</li>
+                                        <li class="language">React</li>
+                                        <li class="language">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- This div contains professional work history (Time, Title, Summary, Languages) -->
+                            <div class="work">
+                                <!-- Contains the time worked -->
+                                <div class="work-time">
+                                    <p class="text--sm">May 2021 &#8212  Aug 2021</p>
+                                </div>
+                                <!-- This div contains work experience -->
+                                <div class="work-exp">
+                                    <!-- Title of position -->
+                                    <h2 class="myExperience-position">Web Developer Internship | Transnet</h2>
+                                    <!-- Summary of position -->
+                                    <p class="myExperience-summary text-color-in text--sm">Developed responsive and dynamic front-end interfaces using HTML, CSS, JavaScript, and ReactJS 
+                                        for internal driver and client-facing portals. Collaborated within Agile sprints and followed SDLC. Contributed to UI/UX improvements 
+                                        and optimized code for performance.
+                                    </p>
+                                    <!-- List programing languages used-->
+                                    <ul class="languages">
+                                        <li class="language">HTML</li>
+                                        <li class="language">CSS</li>
+                                        <li class="language">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- This div contains professional work history (Time, Title, Summary, Languages) -->
+                            <div class="work">
+                                <!-- Contains the time worked -->
+                                <div class="work-time">
+                                    <p class="text--sm">May 2020 &#8212  Aug 2020</p>
+                                </div> 
+                                <!-- This div contains work experience -->
+                                <div class="work-exp">
+                                    <!-- Title of position -->
+                                    <h2 class="myExperience-position">IT Support - Internship | Transnet </h2>
+                                    <!-- Summary of position -->
+                                    <p class="myExperience-summary text-color-in text--sm">Provided technical support for office staff and remote drivers by troubleshooting hardware, 
+                                        software, and network issues. Used Jira to manage support tickets and maintained ELD systems to ensure compliance and operational efficiency.
+                                    </p>
+                                    <!-- List programing languages used-->
+                                    <ul class="languages">
+                                        <li class="language">Jira</li>
+                                        <li class="language">MS Office</li>
+                                        <li class="language">Troubleshooting</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section contains project list -->
+                    <section id="myprojects" aria-label="Projects section">
+                        <!-- Div contains all the projects-->
+                        <div class="project-title">
+                            <!-- Div contains "Project" title -->
+                            <div class="title-display">
+                                <h2 class="title section-title section-title-style">Projects</h2>
+                            </div>
+                            <!-- Div contains image, project name, project description and languages used -->
+                            <div class="project">
+                                <a href="https://github.com/waleed18v" target="_blank"><img class="project-image" src="project1.JPG" width="250px" height="150px" alt="project one image"></a>
+                                <div class="proj-desc">
+                                    <div class="github-link">
+                                        <h2 class="title--in">Personal Portfolio | V1</h2>
+                                            <a href="https://github.com/waleed18v" target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="30px" width="30px" fill="white" class="h-6 w-6" aria-hidden="true">
+                                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                                                    1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0
+                                                    1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013
+                                                    8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                                </svg>
+                                            </a>
+                                    </div>
+                                    <p class="text--sm">My first personal portfolio website.</p>
+                                    <ul class="languages">
+                                        <li class="language">HTML</li>
+                                        <li class="language">CSS</li>
+                                        <li class="language">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Div contains image, project name, project description and languages used -->
+                            <div class="project">
+                                 <a href="https://github.com/waleed18v" target="_blank"><img class="project-image" src="project2.JPG" width="250px" height="150px" alt="second project image"></a>
+                                <div class="proj-desc">
+                                    <div class="github-link">
+                                        <h2 class="title--in">User Friendly Bank UI</h2>
+                                        <a href="https://github.com/waleed18v" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="30px" width="30px" fill="white" class="h-6 w-6" aria-hidden="true">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0
+                                        1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013
+                                        8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                                            </svg>
+                                        </a> 
+                                    </div>
+                                    <p class="text--sm">Developed a user-friendly interface for a banking application, focusing on intuitive navigation, responsive design, and accessibility.</p>
+                                    <ul class="languages">
+                                        <li class="language">HTML</li>
+                                        <li class="language">CSS</li>
+                                        <li class="language">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="mycertifications" aria-label="Certifications Section">
+                        <div class="certs">
+                            <div class="title-display">
+                                <h2 class="title section-title section-title-style">Certifications</h2>
+                            </div>
+                            <a href="htmlcss-cert.PDF" target="_blank"class="cert-link"><div class="certifications">
+                                <img class="project-image" src="htmlcss-cert.JPG" height="100px" width="150px" alt="">
+                                <div>
+                                    <h2>Certification of completion: HTML & CSS</h2>
+                                    <p>Completed May, 16 2025</p>
+                                </div>
+                            </div>
+                            </a>
+                            <a href="js-cert.PDF" target="_blank" class="cert-link"><div class="certifications">
+                                    <img class="project-image" src="js-cert.JPG" width="150px" height="100px" alt="">
+                                <div>
+                                    <h2>Certification of Completion: JavaScript</h2>
+                                    <p>Completed May, 16 2025</p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+/* sets width of the container for all intro elements */
+.intro{
+    width: 500px;
+}
+
+/* styles the div for name and the description under the name */
+.intro-name {
+    margin-bottom: 50px;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+/* styles the name */
+#myName{
+    color: var(--intro-name);
+    font-family: "poppins", sans-serif;
+    font-size: 4.3rem;
+}
+
+/* styles the description */
+#myDescription{
+    color: var(--intro-name);
+    font-family: "poppins", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/*  removes the link decoration on navigation buttons (aboutme, experience etc) */
+.link-style {
+    text-decoration: none;
+}
+
+/* styles the unordered list containg four navigation items */
+.nav-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styles the unordered list */
+#intro-nav-items {
+    text-transform:uppercase;
+    padding-left: 0;
+}
+
+/* styles the list elements in the unorderd list */
+.nav-tab{
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: color 200ms, background-color 200ms;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0px 50px 0px 50px;
+    font-family: "poppins", sans-serif;
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: 2.5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--nav-tab-color); /* change color to white when light theme */
+    background-color: var(--background-color);/* change color to black when light theme */
+    box-shadow: 0px 1px 10px 1px var(--box-shadow-color);
+    transition: box-shadow 300ms;
+}
+
+/* styles unordered list elements when mouse hovers */
+.nav-tab:hover {
+   box-shadow: 0px 0px 20px 1px var(--box-shadow-color);
+}
+
+/* styles the div containig github and linkedin icppm */
+.socials{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles the github and linkedin icon */
+.social{
+    align-self: center;
+    transition: scale 300ms;
+}
+
+/* styles the github and linkedin icon when hovering the mouse */
+.social:hover{
+    cursor: pointer;
+    scale: 1.5;
+}
+
+@media (width < 73.5rem){
+    .socials{
+        justify-content: flex-start;
+    }
+
+    .intro-left{
+        left: 0;
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+/* positions the display "About Me" title  */
+.title-display {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 55px;
+    cursor: default;
+}
+
+/* Styles the titles for each section name (reused)  */
+.section-title {
+    color: white; /* color will stay the same on light and dark theme */
+    background-color: black; /* color will stay the same on light and dark theme */
+    padding: 0px 25px 0px 25px;
+}
+
+/* Additional styles targeting the title" (reused) */
+.section-title-style {
+    font-family: "poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0px 50px 0px 50px;
+    transition: box-shadow 300ms,scale 300ms;
+}
+
+/* styles the "About Me" title box shadow when hovering */
+.section-title-style:hover{
+    box-shadow: var(--box-shadow-hover);
+}
+
+/* styles the section and text within the section  */
+.aboutMe-summary {
+    font-family: "poppins", sans-serif;
+    max-width: 600px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 40px;
+    border-radius: 0px 100px 0px 100px;
+    background-color: black; /* Color will stay the same on light and dark theme */
+    color: white; /* color will stay the same on light and dark theme */
+    box-shadow: var(--boxShadow-section);
+    transition: box-shadow 300ms,scale 300ms;
+}
+
+/* styles the section when mouse hovers */
+.aboutMe-summary:hover{
+    box-shadow: var(--hover-boxShadow-section);
+    cursor: default;
+}
+
+/* provides bottom margin between each short paragraph in the section */
+.summary{
+    margin-bottom: 25px;
+}
+
